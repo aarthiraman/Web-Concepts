@@ -1,13 +1,13 @@
 # Primitive Datatypes
 
-1. string
-2. boolean
-3. undefined
-4. null
-5. integer
-6. bigInt
+1. String
+2. Boolean
+3. Undefined
+4. Null
+5. Integer
+6. BigInt
 
-## string
+## String
 Strings can be declared in quotes, double quotes and backticks
 
 ```
@@ -20,7 +20,7 @@ const str = `Sample
     in multiple lines
     `;
 ```
-## boolean
+## Boolean
 Can either be true or false 
 
 ``` 
@@ -38,10 +38,10 @@ Can either be true or false
     Boolean(null) -> false
 ```
 
-## undefined
+## Undefined
 
-## null
+## Null
 
-## integer
+## Integer
 
-## bigInt
+## BigInt
