@@ -20,8 +20,23 @@ const str = `Sample
     in multiple lines
     `;
 ```
-
 ## boolean
+Can either be true or false 
+
+``` 
+    const a = 20;
+    const b = 20;
+
+    Boolean(a+b) -> true
+    Boolean('true') -> true
+    Boolean([]) -> true
+    Boolean({}) -> true
+
+    Boolean('') -> false
+    Boolean() -> false
+    Boolean(undefined) -> false
+    Boolean(null) -> false
+```
 
 ## undefined
 
