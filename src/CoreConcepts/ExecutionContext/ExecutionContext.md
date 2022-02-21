@@ -1,11 +1,8 @@
 # JS Core Concepts
 
-### Syntax Parser 
- A program that would read your code and validate if the syntax is alright
-
 ### Lexical Environment
 Refers to the environment or a location where the code would sit and 
-what it woould have access to.
+what it would have access to.
 
 ### Execution Context
 It again refers to a wrapper that holds your code and other data that it 
