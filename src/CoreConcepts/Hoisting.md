@@ -29,10 +29,12 @@ value of b is 10
 value of c is 12
 ```
 
-### NOTE: 
+### Note: 
 1. Anything declared as var gets a value undefined assigned to it initially.
 2. A variable when it gets assigned a value and then gets redeclared preserves the initial value.
 
-## let and const
-let and const variables get hoisted but they dont get initialized with a value
+### let and const
+let and const variables get hoisted but they dont get initialized with a value.
+They can get referenced only after declaration and only in the block where it gets declared
 Hence if it gets used before its definition it would throw a reference error.
+
