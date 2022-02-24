@@ -20,6 +20,9 @@ Output
 '''
 
 ## Function Expression
+1) A function expression is hoisted but throws a reference error 
+when it gets called before the declaration.
+2) It is not an anonymous function and can be reffered through the 
 
 Example
 ```
@@ -35,6 +38,3 @@ Output
 Uncaught ReferenceError: aFunc1 is not defined
 ```
 
-1) A function expression is hoisted but throws a reference error 
-when it gets called before the declaration.
-2) It is not an anonymous function and can be reffered through the 

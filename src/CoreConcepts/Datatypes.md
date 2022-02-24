@@ -49,7 +49,24 @@ Any Javascript variable that intentinally doesnt have a value is assigned null.
 Is falsy
 
 ## Number
+Used to represent number in general . 
+Any value lesser than Number.MAX_SAFE_INTEGER and
+Number.MIN_SAFE_INTEGER
 
 ## BigInt
+Any number that exceeds memory allocation more than 64 bits intended for a number can be assigned as a bigint.
+Used to represent numbers that is outside the range for the Number primitive type.
+Can be binary, octal, hexadecimal.
+
+BigInts can be used in operations like +, -, *, %
+
+```
+    typeof (1000n) -> bigint
+    10n == 10 -> True
+    10n === 10 -> False
+```
+
+Can be compared with numbers.
+We can sort arrays of numbers and bigints
 
 ## Symbols
